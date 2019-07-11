@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Kavivanar', Tahoma, serif;
+    color: grey;
+}
+p {
+    display: block;
+    font-family: 'Comfortaa', Tahoma, serif;
+    margin: 0 auto;
+}
+.first{
+    font-size: 1.6rem;
+    background-color: lightcyan;
+    margin: 0;
+    height: 720px;
+    font-family: 'Kaushan Script', fantasy;
+}
+.mt{
+    width: 1400px;
+    height: 700px;
+    margin: 20px 0 0 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    color:#39bdc8;
+    font-weight: bolder;
+}
+.first-txt {
+    position: absolute;
+    left: 450px;
+    top: 120px;
+    color:#59d4e8;
+}
+.name{
+    position: absolute;
+    left: 350px;
+    top: 180px;
+    color: #39bdc8;
+}
+.second-txt{
+    position: absolute;
+    left: 210px;
+    top: 270px;
+    color: #59d4e8;
+}
+.second, .third {
+    background-color: white;
+    margin: 60px auto;
+    width: 70%;
+    text-align: left;
+}
+.me {
+    display: block;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.title {
+    position: relative;
+    left: 5rem;
+    font-size: 2.5rem;
+    text-decoration: overline underline lightskyblue;
+}
+.me-title-span{
+    font-size: 1.5rem;
+}
+.me-desc {
+    text-align: center;
+    width: 400px;
+}
+hr {
+    width: 15rem;
+    border-width: 0;
+    border-style: dotted;
+    color:lightskyblue;
+    border-top-width: 1.5rem;
+}
+.double-line {
+    width: 12rem;
+    border-top-style: double;
+    color:lightskyblue;
+    border-top-width: 0.5rem;
+}
+.subskill {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.skill-img {
+    width: 15rem;
+    height: 15rem;
+}
+.skill-h {
+    display: inline-block;
+    position: relative;
+    top: 6.5rem;
+    width: 15.625rem;
+    margin: auto;
+    font-size: 2rem;
+}
+.skill-desc {
+    width: 15.625rem;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 0.8rem;
+    top: 2.5rem;
+    line-height: 1.2rem;
+}
+.desc-top {
+    color: lightseagreen;
+    font-size: 1rem;
+}
+.desc-nxt {
+    color: orange;
+    font-size: 1rem;
+}
+.footer {
+    padding: 10px;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 0;
+    font-size: .8rem;
+}
+.side {
+    position: fixed;
+    top: 150px;
+    right: -5px;
+    line-height: 40px;
+    border-radius: 10%;
+    height: 144px;
+    background-color: azure;
+    margin: 5px auto;
+}
+.link {
+    display: inline-block;
+    width: 70px;
+    padding: 4px 10px;
+    text-align: right;
+    opacity: 0.5;
+}
+.link:hover{
+    background-color: lightcyan;
+    opacity: 1;
+}
