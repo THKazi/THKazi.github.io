@@ -8,6 +8,9 @@ p {
     font-family: 'Comfortaa', Tahoma, serif;
     margin: 0 auto;
 }
+i {
+    font-size: 2rem;
+}
 .first{
     font-size: 1.6rem;
     background-color: lightcyan;
@@ -15,8 +18,8 @@ p {
     height: 720px;
     font-family: 'Kaushan Script', fantasy;
 }
-.mt{
-    width: 1400px;
+.mountains{
+    width: 100%;
     height: 700px;
     margin: 20px 0 0 0;
 }
@@ -126,12 +129,11 @@ hr {
 }
 .side {
     position: fixed;
-    top: 150px;
-    right: -5px;
+    top: 35%;
+    right: 0;
     line-height: 40px;
     border-radius: 10%;
     height: 144px;
-    background-color: azure;
     margin: 5px auto;
 }
 .link {
@@ -140,8 +142,40 @@ hr {
     padding: 4px 10px;
     text-align: right;
     opacity: 0.3;
+    line-height: 2;
 }
 .link:hover{
-    background-color: lightcyan;
     opacity: 1;
+}
+
+@media (max-width:1000px){
+    .first{
+        height: 600px;
+    }
+    .first-txt {
+        left: 10px;
+        top: 5px;
+    }
+    .name {
+        left: 50px;
+        top: 60px;
+        z-index: 1;
+    }
+    .second-txt {
+        left: 10px;
+        top: 110px;
+    }
+    .mountains {
+        height: 600px;
+    }
+
+    .skill-img, .skill-desc, .skill {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        clear:both;
+    }
+
 }
