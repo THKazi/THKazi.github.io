@@ -139,7 +139,7 @@ hr {
     width: 70px;
     padding: 4px 10px;
     text-align: right;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .link:hover{
     background-color: lightcyan;

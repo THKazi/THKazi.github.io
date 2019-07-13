@@ -8,15 +8,23 @@
     <link type="text/css" rel="stylesheet" href="styl.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script|Kavivanar&display=swap" rel="stylesheet"> 
     <link rel="icon" href="Images/icons8-mage-staff-500.png">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
+    <script>
+        AOS.init();
+    </script>
     <div class="first">
-        <h3 class="first-txt">Hello, my name is</h3>
-        <h1 class="name">Timurul H.K.</h1>
-        <h3 class="second-txt">an aspiring innovator</h3>
-        <img class="mt" src="Images/vector-mt-trans.png">
+        <section data-aos="fade" data-aos-easing="linear" data-aos-duration="1500">
+            <h3 class="first-txt">Hello, my name is</h3>
+            <h1 class="name">Timurul H.K.</h1>
+            <h3 class="second-txt">an aspiring innovator</h3>
+        </section>
+        <img class="mt" src="Images/vector-mt-trans.png" data-aos="fade-left" data-aos-duration="10000">
     </div>
-    <div class="second">
+    <div class="second" data-aos="fade">
         <img class="me" src="Images/Carnivale.png">
         <h3 class="title">TIMURUL <span class="me-title-span">HOQUE KAZI</span></h3>
         <p class="me-desc">I'm an IB student at Turner Fenton Secondary School.
@@ -24,11 +32,11 @@
         </p>
     </div>
     <hr>
-    <div class="third">
+    <div class="third" data-aos="fade">
         <h2 class="title">SKILLS</h2>
         <hr class="double-line">
         
-        <div class="subskill">
+        <div class="subskill" data-aos="flip-down" data-aos-delay="100">
             <h3 class="skill-h" style="float: left;">Programming</h3>
             <img class="skill-img" src="Images/icons8-source-code-500.png">
             <p class="skill-desc" style="float: right;">
@@ -40,7 +48,7 @@
             </p>
         </div>
         <hr class="double-line">
-        <div class="subskill">
+        <div class="subskill" data-aos="flip-down" data-aos-delay="100">
             <p class="skill-desc" style="float: left;">
                 <span class="desc-top">English :: French :: Russian</span><br>
                 Not to brag, but those who know me could attest to my skill with the English language.
@@ -53,7 +61,7 @@
 
         </div>
         <hr class="double-line">
-        <div class="subskill">
+        <div class="subskill" data-aos="flip-down" data-aos-delay="100">
             <h3 class="skill-h" style="float: left;">Music</h3>
             <img class="skill-img" src="Images/icons8-music-500.png">
             <p class="skill-desc" style="float: right;">
